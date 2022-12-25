@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root{
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+
+}
+
+/*    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive*/
+
+*{
+    margin: 0px;
+    padding: 0px;}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte2);}
+
+header h1, h2{
+    text-align: center;}
+
+header h1{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 8vw;}
+
+header span{
+    font-size: 1.25em;}
+
+header h2{
+    font-weight: 100;
+    font-family: var(--fonte1);
+    font-size: 1em;
+    padding-bottom: 50px;}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;}
+
+main section{
+    font-family: var(--fonte3);
+    font-weight: 100;
+    font-size: 3.5vw;
+    padding: 10vh 0px 15vh 4vw;
+    line-height: 2em;
+    }
+
+#verso2{
+    color: white;
+    background-image: url('../imagens/joaninha.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;}
+
+#verso2 > p{
+    background-color: rgba(0, 0, 0, 0.39);
+    width: fit-content;
+}
+
+#verso4{
+    color: white;
+    background-image: url('../imagens/cartas-antigas-manuscritos-e-cartoes-postais-vintage-fundo-sentimental-nostalgico-com-vinheta_154730-1891.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;}
+
+#verso4 > p{
+    background-color: rgba(0, 0, 0, 0.493);
+    width: fit-content;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: 100;}
+
+footer h1{
+    font-weight: 100;
+    padding: 8px 0px 8px 0px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+footer a:hover{
+    color: white;
+
+}
