@@ -51,9 +51,9 @@ header a{
 main section{
     font-family: var(--fonte3);
     font-weight: 100;
-    font-size: 3.5vw;
-    padding: 8vh 0px 12vh 4vw;
-    line-height: 2em;
+    font-size: 5vw;
+    padding: 6vh 0px 8vh 4vw;
+    line-height: 4em;
     }
 
 #verso2{
@@ -83,7 +83,7 @@ main section{
 footer{
     background-color: black;
     color: white;
-    font-size: 0.6em;
+    font-size: 0.4em;
     text-align: center;
     font-weight: 100;}
 
